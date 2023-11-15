@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  * exec_mngr - Control the CMD to right flow
+  * exec_mngr - this control the command to right flow
   * @argv:- commandline arguements(CMD)
-  * Return:- 0 Always
+  * Returns:- 0 as Always
   */
 
 int exec_mngr(char *const *argv)
@@ -26,9 +26,9 @@ int exec_mngr(char *const *argv)
 }
 
 /**
-  * exe_builtn - The command to be executed
-  * @argv:- Tables
-  * Return:- Always 0
+  * exe_builtn - This is the command to be executed
+  * @argv:- the tables
+  * Returns:- Always as 0
   */
 
 int exe_builtn(char *const *argv)
@@ -60,9 +60,9 @@ int exe_builtn(char *const *argv)
 }
 
 /**
-  * exe_extern - Finds external CMD
-  * @argv:- Table
-  * Return:- 0 Always
+  * exe_extern - this finds the external CMD
+  * @argv:- th table
+  * Returns:- 0 as Always
   */
 
 int exe_extern(char *const *argv)

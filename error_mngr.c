@@ -3,10 +3,10 @@
 char *three_case(char *errcus, char **token_array);
 
 /**
- * printing_error - Error printed
- * @argv: Carries th shell name
- * @tok_arry: The needed token for error message
- * @loop_cnt: Shell loop iteration
+ * printing_error -the  error to print
+ * @argv: this carries the shells name
+ * @tok_arry: This is the needed token for error the message
+ * @loop_cnt: loop iteration
  */
 void printing_error(size_t loop_cnt, char *argv, char **tok_arry)
 {
@@ -58,9 +58,9 @@ void printing_error(size_t loop_cnt, char *argv, char **tok_arry)
 }
 
 /**
- * three_case - Error message
- * @errcus: Custom error message saved here
- * @token_array: The needed token for error message
+ * three_case - this is the message
+ * @errcus: the error message saved here
+ * @token_array: The token for error message
  * Return: NULL or Pounter to error message
  */
 char *three_case(char *errcus, char **token_array)

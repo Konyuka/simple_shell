@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
-  * own_strncpy - Copies a str
-  * @destination:- The destination
-  * @source:- string
-  * @count:- bytes to copied
-  * Return:- Success 0
+  * own_strncpy - this copies a strg
+  * @destination:- thi is the destination
+  * @source:- the string
+  * @count:- the bytes to be copied
+  * Returns:- Success as 0
   */
 
 char *own_strncpy(char *destination, const char *source, size_t count)
@@ -36,9 +36,9 @@ char *own_strncpy(char *destination, const char *source, size_t count)
 
 
 /**
-  * own_strlen - Gets & return str length
-  * @string:- String
-  * Return:- Always 0
+  * own_strlen - this gets & returns the str length
+  * @string:- the string
+  * Returns:- Always as 0
   */
 
 
@@ -56,7 +56,7 @@ size_t own_strlen(char *string)
 
 
 /**
-  * own_strcmp - compares tw0 string
+  * own_strcmp - this compares the tw0 string
   * @string1:- str 1
   * @string2:- str 2
   * Return:- Always 0
@@ -126,10 +126,10 @@ int own_strncmp(char *string1, char *string2, size_t num)
 
 
 /**
-  * own_strcat - joins strings
-  * @destination:- joined string
-  * @source: first string
-  * Return:- Always 0
+  * own_strcat - the joins strings
+  * @destination:- the joined string
+  * @source: the first string
+  * Returns:- Always as 0
   */
 
 char *own_strcat(char *destination, char *source)

@@ -4,10 +4,10 @@ int is_num(char let);
 int own_atoi(char *status);
 
 /**
- * bltin_exit - Will exit shell
- * @argv: Shell exit status
+ * bltin_exit - this will exit the shell
+ * @argv: the shell exit status
  *
- * Return: Exits shell or returns EXIT_FAILURE
+ * Return: this exits the shell or returns FAILURE
  */
 int bltin_exit(char *const *argv)
 {
@@ -36,9 +36,9 @@ int bltin_exit(char *const *argv)
 }
 
 /**
- * is_num - If a char is a num
- * @let: Inputed char
- * Return: 1 Success, 0 Failure
+ * is_num - If is a char is a number
+ * @let: the inputed char
+ * Returns: 1 as Success and 0 as Failure
  */
 int is_num(char let)
 {
@@ -49,9 +49,9 @@ int is_num(char let)
 }
 
 /**
- * own_atoi - Convert str to num
- * @status: Inpute Str
- * Return: Status as an int or -1
+ * own_atoi - the onverted string to num
+ * @status: Inpute String
+ * Returns: Status as an int or -1
  */
 int own_atoi(char *status)
 {

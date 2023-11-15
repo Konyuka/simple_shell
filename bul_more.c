@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  * counting_digt - count digits
-  * @number:- Counted number
-  * Return:- 0 Always
+  * counting_digt -  this is the digits count
+  * @number:- the counted number
+  * Returns:- 0 as Always
   */
 
 size_t counting_digt(size_t number)
@@ -20,11 +20,11 @@ size_t counting_digt(size_t number)
 }
 
 /**
-  * own_itoa - chang num to string
-  * @ba:- The string base
-  * @buff:- an array of string
-  * @num:- The inpu
-  * Return:- O Always
+  * own_itoa - the changed num to string
+  * @ba:- this is the string base
+  * @buff:- an array of the string
+  * @num:- this is the input
+  * Returns:- O as always
   */
 
 char *own_itoa(size_t num, char *buff, int ba)

@@ -5,9 +5,9 @@ void shfting_buffer(char *memory, ssize_t l);
 ssize_t buff_copy(char **dst, char *source, ssize_t *start);
 
 /**
-  * get_line - A function that reads CMDs
-  * @buf:- Point to CMD
-  * Return:- Always 0
+  * get_line - the function that reads the CMDs
+  * @buf:- the pointer to the CMD
+  * Returns:- Always as 0
   */
 
 ssize_t get_line(char **buf)
@@ -43,9 +43,9 @@ ssize_t get_line(char **buf)
 }
 
 /**
- * buffer_check - A function to check buffer
- * @buf: Tests the buffer
- * Return: num of bytes
+ * buffer_check - the function to check the buffer
+ * @buf: this tests the buffer
+ * Return: the num of bytes needed
  */
 int buffer_check(char *buf)
 {
@@ -60,10 +60,10 @@ int buffer_check(char *buf)
 
 
 /**
-  * shfting_buffer - Shitfs buffer
-  * @l:- bytes to be shifted
-  * @memory:- memory
-  * Return:- Success 0
+  * shfting_buffer - this Shitfs the buffer
+  * @l:- the bytes to be shifted
+  * @memory:- this the memory
+  * Returns:- Success as 0
   */
 
 void shfting_buffer(char *memory, ssize_t l)
@@ -81,9 +81,9 @@ void shfting_buffer(char *memory, ssize_t l)
 
 
 /**
-  * allocating_mem - A function that allocates mem to buffer
-  * @memory:- mem allocted
-  * Return:- Always 0
+  * allocating_mem - the function that allocates the mem to buffer
+  * @memory:- the memory allocted
+  * Returns:- Always as 0
   */
 
 
@@ -101,11 +101,11 @@ int allocating_mem(char *memory)
 
 
 /**
-  * buff_copy - Copies the buffer
-  * @begin:- Resu;ts from copy
-  * @source:- Copying source
-  * @dst:- Copies to
-  * Return:- Success 0
+  * buff_copy - the copies to the buffer
+  * @begin:- the results from a copy
+  * @source:- Copy source
+  * @dst:- Copy to
+  * Returns:- Success as 0
   */
 
 ssize_t buff_copy(char **dst, char *source, ssize_t *begin)
