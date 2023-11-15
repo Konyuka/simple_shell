@@ -52,5 +52,3 @@ char *own_itoa(size_t num, char *buff, int ba)
 		buff[idy] = '\0';
 	return (reverse_string(buff));
 }
-
-

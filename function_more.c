@@ -154,5 +154,3 @@ char *own_strcat(char *destination, char *source)
 	destination[destination_index] = '\0';
 	return (destination);
 }
-
-

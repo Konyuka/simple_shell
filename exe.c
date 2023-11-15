@@ -105,5 +105,3 @@ int exe_extern(char *const *argv)
 	err_msg = 2;
 	return (-1);
 }
-
-

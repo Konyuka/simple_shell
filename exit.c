@@ -77,5 +77,3 @@ int own_atoi(char *status)
 	else
 		return (aws);
 }
-
-

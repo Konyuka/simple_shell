@@ -140,5 +140,3 @@ ssize_t buff_copy(char **dst, char *source, ssize_t *begin)
 
 	return (cmt_copy);
 }
-
-

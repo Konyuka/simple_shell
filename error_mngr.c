@@ -91,5 +91,3 @@ char *three_case(char *errcus, char **token_array)
 	perror(errcus);
 	return (NULL);
 }
-
-
